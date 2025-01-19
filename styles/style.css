@@ -539,3 +539,8 @@ nav {
 }
 
 /* footer section end here */
+/*hoover effect start here*/
+.global-btn:hover {
+    background-color: rgb(255,21,0);
+}
+/*hoover effect end here*/
