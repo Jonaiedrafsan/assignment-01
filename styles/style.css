@@ -53,6 +53,7 @@ nav {
     border-radius: 8px;
     margin-top: 24px;
     margin-right: 160px;
+    cursor: pointer;
 }
 
 /* navigation part end here */
@@ -103,8 +104,7 @@ nav {
     margin-top: 24px;
     padding: 17px 34px;
     border: none;
-
-
+    cursor: pointer;
     background: rgb(0, 106, 80);
 }
 
@@ -113,3 +113,392 @@ nav {
 }
 
 /* explore styles end here */
+
+/* pillars section start here */
+.pillars {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 32px;
+
+}
+
+.pillar {
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+
+    background-color: rgb(255, 255, 255);
+
+}
+
+.pillar-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+    margin-top: 12px;
+
+}
+
+.pillar-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* pillars section end here */
+.vis-des {
+    margin: 24px 160px;
+}
+
+/* significant works section start here */
+.sig-works {
+    display: flex;
+    gap: 24px;
+    margin: 24px 160px;
+}
+
+.sig-work {
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+
+    background-color: rgb(255, 255, 255);
+}
+
+.sig-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+    margin-top: 12px;
+
+
+}
+
+.sig-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.sig-btn {
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+    margin: 32px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+.dt-work {
+    background-color: rgb(213, 225, 245);
+}
+
+.ge-work {
+    background-color: rgb(198, 228, 214);
+}
+
+.mi-work {
+    background-color: rgb(247, 235, 207);
+}
+
+.dt-btn {
+    background-color: rgb(84, 144, 245);
+}
+
+.ge-btn {
+    background-color: rgb(9, 161, 92);
+}
+
+.mi-btn {
+    background-color: rgb(255, 194, 57);
+}
+
+/* significan works section end here */
+/* younus section start here */
+.yn-speech {
+    margin: 24px 160px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 48px 24px;
+
+    background: rgb(255, 255, 255);
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 24px;
+}
+
+.yn-nm {
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+
+/* younus section end here */
+/* recent news section start here */
+.rnews-description {
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.news {
+    display: flex;
+    margin-left: 160px;
+    margin-right: 160px;
+    padding: 48px;
+    border-radius: 24px;
+
+
+    background: rgb(255, 255, 255);
+    margin-bottom: 24px;
+
+}
+
+.news-part2 {
+    margin-bottom: 0px;
+}
+
+.news-img {
+    border-radius: 24px;
+    margin-right: 32px;
+}
+
+.news-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+    margin-top: 8px;
+}
+
+.news-img2 {
+    margin: 12px 0px;
+}
+
+.date-time {
+    display: flex;
+    gap: 12px;
+}
+
+.news-description {
+
+    text-align: left;
+    margin: 12px 0px;
+}
+
+.news-btn {
+
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    cursor: pointer;
+
+}
+
+/* recent news section start here */
+/* donation part start here */
+.donattion-part {
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.donate-title {
+
+    color: rgb(14, 14, 14);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.donate-description {
+    margin-left: 88px;
+    margin-right: 88px;
+    text-align: center;
+    margin-bottom: 39px;
+    margin-top: 28px;
+}
+
+.donate-variation {
+    display: flex;
+    margin-left: 126px;
+    margin-right: 126px;
+    gap: 30px;
+}
+
+.donate-amount-hover {
+    background-color: rgb(198, 228, 214);
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: left;
+    padding: 48px;
+    box-sizing: border-box;
+    border: 1.20px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.donate-amount {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: left;
+    padding: 48px;
+    box-sizing: border-box;
+    border: 1.20px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    cursor: pointer;
+
+    background: rgb(255, 255, 255);
+}
+
+.various-amount {
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 24px 507px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1.20px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    width: 1238px;
+    height: auto;
+
+}
+
+.other-amount {
+    margin-left: 149px;
+    margin-top: 38.4px;
+}
+
+.donate-btn {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    margin-left: 677px;
+    margin-top: 39px;
+    padding: 17px 34px;
+    border: none;
+    cursor: pointer;
+
+
+    background: rgb(0, 106, 80)
+}
+
+/* donation part start here */
+/* newsletter section start */
+.newsletter {
+    margin: 80px 160px;
+    border-radius: 24px;
+
+    background: rgb(198, 228, 214);
+    padding: 80px 100px;
+}
+
+.newsletter-title {
+    color: rgb(14, 14, 14);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.news-content {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.newsletter-card form {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-card form input {
+    width: 65%;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px 0 0 8px;
+    color: rgba(14, 14, 14, 0.3);
+    ;
+}
+
+.newsletter-card form button {
+    border-radius: 0 8px 8px 0;
+    padding: 0px 20px;
+    background: rgb(0, 106, 80);
+    color: #fff;
+    border: none;
+}
+
+.input-form {
+    margin-top: 24px;
+}
+
+.news-footer {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+/* newsletter section end */
