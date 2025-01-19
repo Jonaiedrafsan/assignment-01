@@ -484,6 +484,7 @@ nav {
     background: rgb(0, 106, 80);
     color: #fff;
     border: none;
+    cursor: pointer;
 }
 
 .input-form {
@@ -502,3 +503,39 @@ nav {
 
 
 /* newsletter section end */
+/* footer section start end here */
+.footer-section {
+    width: 100%;
+    background-color: #fff;
+
+}
+
+.footer {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32;
+    padding: 50px 160px;
+}
+
+.footer-title {
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.footer hr{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    margin: 32px 80px;
+}
+.social-account{
+    display: flex;
+    gap: 23px;
+    
+    justify-content: center;
+}
+
+/* footer section end here */
