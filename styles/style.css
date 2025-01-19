@@ -4,3 +4,112 @@
     padding: 0px;
     font-family: "Fira Sans", serif;
 }
+body {
+
+    background-color: rgba(241, 241, 243, 1);
+
+}
+
+/* shared styles */
+.shared-title {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 80px;
+}
+
+.shared-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+/* navigation part start here */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 31px;
+    margin-left: 160px;
+}
+
+.nav-sub {
+    color: rgb(0, 106, 80);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 15px 30px;
+    border: 1px solid rgba(0, 106, 80, 1);
+    border-radius: 8px;
+    margin-top: 24px;
+    margin-right: 160px;
+}
+
+/* navigation part end here */
+/* explore styles start here */
+.explore {
+    background-color: rgb(198, 228, 214);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 24px;
+    margin-top: 19px;
+    margin-left: 160px;
+    margin-right: 160px;
+
+}
+
+.explore-title {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 59.9px;
+    margin-top: 116px;
+}
+
+.explore-ideas {
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 59.9px;
+    margin-top: 16px;
+
+}
+
+.explore-btn {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    margin-left: 59.99px;
+    margin-top: 24px;
+    padding: 17px 34px;
+    border: none;
+
+
+    background: rgb(0, 106, 80);
+}
+
+.explore-img {
+    margin: 80px 59.9px 80px 64px;
+}
+
+/* explore styles end here */
